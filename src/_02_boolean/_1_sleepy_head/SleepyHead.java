@@ -28,7 +28,7 @@ public class SleepyHead {
 
 		boolean passedExam;
 		// Write code to ask the user what percentage they scored in their last exam
-			String examScore = JOptionPane.showInputDialog("what persentage did you score on you score on your exam");
+			String examScore = JOptionPane.showInputDialog("what percentage did you score on you score on your exam");
 		
 		// If they scored more than 70, they passed the exam.
 			
@@ -98,6 +98,8 @@ public class SleepyHead {
 			rob.move(50);
 			rob.turn(90);
 		}
+		rob.penUp();
+		rob.move(2000);
 		
 		// Complete the rest of this method
 	}	
